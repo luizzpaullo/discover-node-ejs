@@ -10,12 +10,17 @@ app.set("view engine", "ejs");
 // Criando as Rotas.
 // Rota da Pagina Index
 app.get("/", (req, res) => {
-    res.render("index");
+    res.render("pages/index"); //Nao precisa pasta /views pq ja eh o default do ejs
 })
 
 // Rota da Pagina sobre
-app.get("sobre", (req, res) => {
-    res.render("about");
+app.get("/sobre", (req, res) => {
+    res.render("pages/about");
+})
+
+// Rota da pagina Contato 
+app.get("/contato", (req, res) => {
+    res.render("pages/contact");
 })
 
 // Habilitando a porta no servidor express
