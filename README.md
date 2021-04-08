@@ -2,7 +2,7 @@
 Rocketseat -> Discover -> Curso Node+EJS 
 
 <h1 align="center">
-  <img alt="Node+EJS " title="Node+EJS " src="https://i.imgur.com/Veqm7Gh.png" width="220px" />
+  <img alt="Node+EJS " title="Node+EJS " src="src/image/logo.png width="220px" />
 </h1>
 
 <p align="center">
